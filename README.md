@@ -1,7 +1,7 @@
 # Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet) 
 
-[[Paper](figs/scunet.pdf)][[Code]()]
+[[Paper](figs/scunet.pdf)]
 
 Swin-Conv-UNet (SCUNet) denoising network
 ----------
