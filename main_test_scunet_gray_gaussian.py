@@ -64,7 +64,7 @@ def main():
     # ----------------------------------------
     # load model
     # ----------------------------------------
-    from models.swinTrans import SCUNet as net
+    from models.network_scunet import SCUNet as net
     model = net(in_nc=n_channels,config=[4,4,4,4,4,4,4],dim=64)
 
     model.load_state_dict(torch.load(model_path), strict=True)
