@@ -26,8 +26,8 @@ def main():
     # Preparation
     # ----------------------------------------
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_name', type=str, default='450000_E', help='scunet_color_15, scunet_color_25, scunet_color_50')
-    parser.add_argument('--testset_name', type=str, default='RNI15', help='test set, bsd68 | set12')
+    parser.add_argument('--model_name', type=str, default='scunet_color_real_psnr', help='scunet_color_real_psnr, scunet_color_real_gan')
+    parser.add_argument('--testset_name', type=str, default='real3', help='test set, bsd68 | set12')
     parser.add_argument('--show_img', type=bool, default=False, help='show the image')
     parser.add_argument('--model_zoo', type=str, default='model_zoo', help='path of model_zoo')
     parser.add_argument('--testsets', type=str, default='testsets', help='path of testing folder')
