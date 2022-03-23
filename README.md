@@ -49,6 +49,11 @@ python main_download_pretrained_models.py --models "SCUNet" --model_dir "model_z
     ```bash
     python main_test_scunet_color_gaussian.py --model_name scunet_color_25 --noise_level_img 25 --testset_name bsd68
     ```
+3. Blind real image denoising
+
+    ```bash
+    python main_test_scunet_real_application.py --model_name scunet_color_real_psnr --testset_name real3
+    ```
 
 
 Results on Gaussian denoising
