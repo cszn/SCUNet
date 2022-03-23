@@ -95,14 +95,10 @@ def main():
         # ------------------------------------
         # (2) img_E
         # ------------------------------------
-        #img_E = utils_model.test_mode(model, img_L, mode=2, refield=64)
 
-        if img_L.size(2)//8==0 and img_L.size(3)//8==0:
-            img_E = model(img_L)
-        elif (img_L.size(2)//8!=0 or img_L.size(3)//8!=0):
-            img_E = utils_model.test_mode(model, img_L, refield=64, mode=5)
+        #img_E = utils_model.test_mode(model, img_L, refield=64, min_size=512, mode=2)
 
-        #img_E = model(img_L)
+        img_E = model(img_L)
         img_E = util.tensor2uint(img_E)
 
         # ------------------------------------
