@@ -31,6 +31,26 @@ the clean image.
 Synthesized noisy/clean patch pairs via our proposed training data synthesis pipeline. The size of the high quality image patch is
 544×544. The size of the noisy/clean patches is 128×128.
 
+Codes
+---------
+1. Download SCUNet models
+```python
+python main_download_pretrained_models.py --models "SCUNet" --model_dir "model_zoo"
+```
+
+2. Gaussian denoising
+    1. grayscale images
+
+    ```bash
+    python main_test_scunet_gray_gaussian.py --model_name scunet_gray_25 --noise_level_img 25 --testset_name set12
+    ```
+
+    2. color images
+    ```bash
+    python main_test_scunet_color_gaussian.py --model_name scunet_color_25 --noise_level_img 25 --testset_name bsd68
+    ```
+
+
 Results on Gaussian denoising
 ----------
 <img src="figs/gray_scunet.png" width="900px"/>  
