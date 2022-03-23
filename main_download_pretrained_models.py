@@ -82,7 +82,7 @@ if __name__ == '__main__':
                         'DPIR': ['drunet_gray.pth', 'drunet_color.pth', 'drunet_deblocking_color.pth', 'drunet_deblocking_grayscale.pth'],
                         'BSRGAN': ['BSRGAN.pth', 'BSRNet.pth', 'BSRGANx2.pth'],
                         'IRCNN': ['ircnn_color.pth', 'ircnn_gray.pth'],
-                        'SCUNet': ['scunet_gray_15.pth', 'scunet_gray_25.pth', 'scunet_gray_50.pth', 'scunet_color_15.pth', 'scunet_color_25.pth', 'scunet_color_50.pth'],
+                        'SCUNet': ['scunet_gray_15.pth', 'scunet_gray_25.pth', 'scunet_gray_50.pth', 'scunet_color_15.pth', 'scunet_color_25.pth', 'scunet_color_50.pth', 'scunet_color_real_psnr.pth'],
                         'SwinIR': ['001_classicalSR_DF2K_s64w8_SwinIR-M_x2.pth', '001_classicalSR_DF2K_s64w8_SwinIR-M_x3.pth', 
                                    '001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth', '001_classicalSR_DF2K_s64w8_SwinIR-M_x8.pth', 
                                    '001_classicalSR_DIV2K_s48w8_SwinIR-M_x2.pth', '001_classicalSR_DIV2K_s48w8_SwinIR-M_x3.pth', 
