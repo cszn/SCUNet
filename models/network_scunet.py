@@ -226,10 +226,10 @@ class SCUNet(nn.Module):
 
     def forward(self, x0):
 
-#        h, w = x0.size()[-2:]
-#        paddingBottom = int(np.ceil(h/64)*64-h)
-#        paddingRight = int(np.ceil(w/64)*64-w)
-#        x0 = nn.ReplicationPad2d((0, paddingRight, 0, paddingBottom))(x0)
+        h, w = x0.size()[-2:]
+        paddingBottom = int(np.ceil(h/64)*64-h)
+        paddingRight = int(np.ceil(w/64)*64-w)
+        x0 = nn.ReplicationPad2d((0, paddingRight, 0, paddingBottom))(x0)
 
         x1 = self.m_head(x0)
         x2 = self.m_down1(x1)
@@ -241,7 +241,7 @@ class SCUNet(nn.Module):
         x = self.m_up1(x+x2)
         x = self.m_tail(x+x1)
 
-#        x = x[..., :h, :w]
+        x = x[..., :h, :w]
         
         return x
 
