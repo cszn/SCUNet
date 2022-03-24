@@ -104,7 +104,7 @@ def main():
         # ------------------------------------
         # save results
         # ------------------------------------
-        util.imsave(img_E, os.path.join(E_path, img_name+ext))
+        util.imsave(img_E, os.path.join(E_path, img_name+'.png'))
 
 if __name__ == '__main__':
 
