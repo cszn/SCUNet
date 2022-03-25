@@ -7,19 +7,19 @@
 
 <p align="left">
   <a href="https://github.com/cszn/SCUNet">
-    <img width=43% src="https://github.com/cszn/cszn.github.io/blob/master/files/b_fnb_0128_16.gif"/>
-    <img width=43% src="https://github.com/cszn/cszn.github.io/blob/master/files/cc_fnb_0042_16.gif"/>
-    <img width=43% src="https://github.com/cszn/cszn.github.io/blob/master/files/ct_fnb_0019_16.gif"/>
-    <img width=43% src="https://github.com/cszn/cszn.github.io/blob/master/files/cty_fnb_0047_16.gif"/>
+    <img width=48% src="https://github.com/cszn/cszn.github.io/blob/master/files/b_fnb_0128_16.gif"/>
+    <img width=48% src="https://github.com/cszn/cszn.github.io/blob/master/files/cc_fnb_0042_16.gif"/>
+    <img width=48% src="https://github.com/cszn/cszn.github.io/blob/master/files/ct_fnb_0019_16.gif"/>
+    <img width=48% src="https://github.com/cszn/cszn.github.io/blob/master/files/cty_fnb_0047_16.gif"/>
   </a>
 </p>
 
 <p align="left">
   <a href="https://github.com/cszn/SCUNet">
-    <img width=43% src="https://github.com/cszn/cszn.github.io/blob/master/files/g_fnb_0009_16.gif"/>
-    <img width=43% src="https://github.com/cszn/cszn.github.io/blob/master/files/kf_fnb_0058_16.gif"/>
-    <img width=43% src="https://github.com/cszn/cszn.github.io/blob/master/files/mc_fnb_0001_16.gif"/>
-    <img width=43% src="https://github.com/cszn/cszn.github.io/blob/master/files/wm_fnb_0010_16.gif"/>
+    <img width=48% src="https://github.com/cszn/cszn.github.io/blob/master/files/g_fnb_0009_16.gif"/>
+    <img width=48% src="https://github.com/cszn/cszn.github.io/blob/master/files/kf_fnb_0058_16.gif"/>
+    <img width=48% src="https://github.com/cszn/cszn.github.io/blob/master/files/mc_fnb_0001_16.gif"/>
+    <img width=48% src="https://github.com/cszn/cszn.github.io/blob/master/files/wm_fnb_0010_16.gif"/>
   </a>
 </p>
 
