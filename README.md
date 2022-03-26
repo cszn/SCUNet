@@ -1,5 +1,8 @@
-# Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis
+# _Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis_
+
+
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet) 
+
 
 [[Paper](figs/scunet.pdf)]
 
@@ -98,8 +101,12 @@ Results on real image denoising
 
 
 
-
-
-
-
+```bibtex
+@article{zhang2022practical,
+title={Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis},
+author={Zhang, Kai and Li, Yawei and Liang, Jingyun and Cao, Jiezhang and Zhang, Yulun and Tang, Hao and Timofte, Radu and Van Gool, Luc},
+journal={arXiv preprint},
+year={2022}
+}
+```
 
