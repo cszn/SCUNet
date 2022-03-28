@@ -4,7 +4,7 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet) 
 
 
-[[Paper](figs/scunet.pdf)]
+[[Paper](https://arxiv.org/pdf/2203.13278.pdf)]
 
 
 __*The following results are obtained by our SCUNet with purely synthetic training data! 
