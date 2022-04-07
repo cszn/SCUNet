@@ -85,11 +85,10 @@ def main():
         logger.info('{:->4d}--> {:>10s}'.format(idx+1, img_name+ext))
 
         img_L = util.imread_uint(img, n_channels=n_channels)
-        img_L = util.uint2single(img_L)
 
-        util.imshow(util.single2uint(img_L)) if args.show_img else None
+        util.imshow(img_L) if args.show_img else None
 
-        img_L = util.single2tensor4(img_L)
+        img_L = util.uint2tensor4(img_L)
         img_L = img_L.to(device)
 
         # ------------------------------------
