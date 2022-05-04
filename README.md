@@ -57,6 +57,11 @@ the clean image.__
 __Synthesized noisy/clean patch pairs via our proposed training data synthesis pipeline. The size of the high quality image patch is
 544×544. The size of the noisy/clean patches is 128×128.__
 
+
+Web Demo
+---------
+Try Replicate web demo for SCUNet models here [![Replicate](https://replicate.com/cszn/scunet/badge)](https://replicate.com/cszn/scunet)
+
 Codes
 ---------
 1. Download SCUNet models
