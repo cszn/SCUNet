@@ -6,7 +6,6 @@
 
 [[Paper](https://arxiv.org/pdf/2203.13278.pdf)]  [[Online Demo]](https://replicate.com/cszn/scunet)
 
-I can provide the `scunet_color_real_gan.pth` upon request.
 
 __*The following results are obtained by our SCUNet with purely synthetic training data! 
 We did not use the paired noisy/clean data by DND and SIDD during training!*__
@@ -86,7 +85,9 @@ python main_download_pretrained_models.py --models "SCUNet" --model_dir "model_z
     ```bash
     python main_test_scunet_real_application.py --model_name scunet_color_real_psnr --testset_name real3
     ```
-
+    ```bash
+    python main_test_scunet_real_application.py --model_name scunet_color_real_gan --testset_name real3
+    ```
 
 Results on Gaussian denoising
 ----------
