@@ -1,10 +1,10 @@
-# _Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis_
+# _Practical Blind Image Denoising via Swin-Conv-UNet and Data Synthesis_
 
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet) 
 
 
-[[Paper](https://arxiv.org/pdf/2203.13278.pdf)]  [[Online Demo]](https://replicate.com/cszn/scunet)
+[[ArXiv Paper](https://arxiv.org/pdf/2203.13278.pdf)]  [[Online Demo]](https://replicate.com/cszn/scunet) [[Published Paper](https://link.springer.com/article/10.1007/s11633-023-1466-0)]
 
 
 __*The following results are obtained by our SCUNet with purely synthetic training data! 
@@ -109,11 +109,13 @@ Results on real image denoising
 
 
 ```bibtex
-@article{zhang2022practical,
-title={Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis},
-author={Zhang, Kai and Li, Yawei and Liang, Jingyun and Cao, Jiezhang and Zhang, Yulun and Tang, Hao and Timofte, Radu and Van Gool, Luc},
-journal={arXiv preprint},
-year={2022}
+@article{zhang2023practical,
+   author = {Zhang, Kai and Li, Yawei and Liang, Jingyun and Cao, Jiezhang and Zhang, Yulun and Tang, Hao and Fan, Deng-Ping and Timofte, Radu and Gool, Luc Van},
+   title = {Practical Blind Image Denoising via Swin-Conv-UNet and Data Synthesis},
+   journal = {Machine Intelligence Research},
+   DOI = {10.1007/s11633-023-1466-0},
+   url = {https://doi.org/10.1007/s11633-023-1466-0},
+   year = {2023}
 }
 ```
 
