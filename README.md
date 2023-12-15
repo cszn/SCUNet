@@ -115,7 +115,11 @@ Results on real image denoising
    journal = {Machine Intelligence Research},
    DOI = {10.1007/s11633-023-1466-0},
    url = {https://doi.org/10.1007/s11633-023-1466-0},
-   year = {2023}
+   volume={20},
+   number={6},
+   pages={822--836},
+   year={2023},
+   publisher={Springer}
 }
 ```
 
